@@ -1,0 +1,226 @@
+nav {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+header {
+    position: absolute;
+    z-index: 1000;
+}
+
+header nav #main-logo {
+    display: contents;
+}
+
+nav .menu {
+    margin-left: 22.5rem;
+}
+
+nav ul li {
+    background-color: transparent;
+}
+
+nav ul ul {
+    box-shadow: none;
+}
+
+.underline {
+    color: white;
+}
+
+.tobedrop::after {
+    background: none;
+}
+
+nav a {
+    color: #FFF;
+}
+
+header h1 {
+    color: #FFF;
+}
+
+header h3 {
+    color: #FFF;
+}
+
+header h3 a {
+    color: #FFF;
+}
+
+header a {
+    color: #FFF;
+}
+
+nav ul li ul li:hover {
+    background: transparent;
+}
+
+/* Background color change on Hover */
+nav a:hover {
+    background: transparent;
+    color: #FFF;
+}
+
+/* ----------media query for header-------- */
+
+@media screen and (max-width:788px) {
+    header {
+        overflow: hidden;
+    }
+
+    nav {
+        width: 480px;
+        overflow: hidden;
+    }
+
+    .list {
+        box-shadow: none;
+        color: white;
+    }
+
+    .menu li a {
+        color: #1a1e2d;
+    }
+
+    .menu li .toggle {
+        box-shadow: none;
+    }
+
+    /* .menu li ul{
+        background-color: #838694;
+    } */
+
+    .menu {
+        margin: 0px;
+        position: relative;
+        /* right: 40%; */
+        background-color: whitesmoke;
+        width: 100%;
+    }
+}
+
+/* ----------team--------- */
+
+#team #head {
+    height: 500px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#team #write {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+#team h1 {
+    /* position: relative;
+    top: 40%; */
+    color: #FFF;
+    font-weight: 800;
+}
+
+#team #head::before {
+    content: "";
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/images/join_header.jpg') center no-repeat content-box;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+/* ----------------Our-members------------ */
+
+.main {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#Our_member {
+    margin: 50px auto;
+    color: black;
+
+}
+
+#Our_member .card {
+    border: none;
+    padding: 0;
+}
+
+#Our_member .card-body h3 {
+    font-weight: 700;
+    margin: 15px 0 5px 0;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    text-align: left;
+}
+
+#Our_member .card img {
+    height: 300px;
+    width: auto;
+}
+
+#Our_member #main {
+    width: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+/* ------------team Members------------ */
+
+
+#ourmembers {
+    margin: 25px auto;
+    height: auto;
+    padding: 10px 0;
+    font-family: sans-serif;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#ourmembers .image-container {
+    width: 100%;
+    height: auto;
+    max-width: 1440px;
+    margin: 15px auto;
+    /* padding: 10px 0; */
+}
+
+#ourmembers img {
+    height: 277px;
+    max-width: 100%;
+    overflow: hidden;
+    margin: 10px;
+}
+
+#ourmembers a {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 4px;
+    color: #fff;
+    text-decoration: none;
+    width: auto;
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: grey;
+}
+
+#ourmembers a:focus {
+    background-color: #7cc576;
+}
+
+#ourmembers .hide {
+    display: none;
+}

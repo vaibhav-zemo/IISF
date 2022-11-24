@@ -18,22 +18,22 @@ header {
 header h1 {
     font-size: 60px;
     text-align: center;
-    color: #000000;
+    color: #FFF;
 }
 
 header h3 {
     font-size: 30px;
     line-height: 34px;
     text-align: center;
-    color: #000000;
+    color: #FFF;
 }
 
 header h3 a {
-    color: #000000;
+    color: #FFF;
 }
 
 header a {
-    color: #000000;
+    color: #FFF;
 }
 
 header h1 {
@@ -66,7 +66,7 @@ header p {
 nav {
     margin: 0;
     padding: 0;
-    background-color: #FFF;
+    background-color: #1a1e2d;
     box-shadow: 0 4px 10px -3px rgb(191 191 191 / 50%);
 }
 
@@ -102,16 +102,20 @@ nav ul li {
     margin: 0px;
     display: inline-block;
     float: left;
-    background-color: #FFF;
+    background-color: #1a1e2d;
 }
 
 /* Styling the links */
 nav a {
     display: block;
     padding: 14px 20px;
-    color: #000000;
+    color: #FFF;
     font-size: 17px;
     text-decoration: none;
+}
+
+nav a:hover {
+    color: #FFF;
 }
 
 
@@ -179,7 +183,16 @@ li>a:only-child:after {
 .headsticky {
     position: fixed;
     top: 0;
-    width: 100%
+    width: 100%;
+    background-color: #1a1e2d;
+}
+
+.headsticky ul li {
+    background-color: #1a1e2d;
+}
+
+.headsticky ul li:hover{
+    background-color: #1a1e2d;
 }
 
 .headsticky+.content {
@@ -190,7 +203,7 @@ li>a:only-child:after {
 /* ---------------- */
 
 .underline {
-    color: #18272F;
+    color: #FFF;
     position: relative;
     text-decoration: none;
 }
@@ -199,7 +212,7 @@ li>a:only-child:after {
     content: '';
     position: absolute;
     width: 100%;
-    height: 2px;
+    height: 4px;
     border-radius: 4px;
     background-color: rgb(138, 24, 134);
     bottom: 0;

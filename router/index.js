@@ -19,4 +19,10 @@ router.get('/join',(req,res)=> {
     });
 });
 
+router.get('/team',(req,res)=> {
+    return res.render('team',{
+        title:'Team',
+    });
+});
+
 module.exports = router;

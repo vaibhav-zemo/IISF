@@ -18,6 +18,9 @@ let calcScrollValue = () => {
 };
 window.addEventListener("scroll", calcScrollValue);
 window.onload = calcScrollValue;
+
+// --------------------startup------------
+
 (function () {
   // wrap code in IIFE to keep it from global scope
   let links = document.querySelectorAll(".tabs"); // grab all <a> tags that trigger the image gallery
@@ -41,17 +44,28 @@ window.onload = calcScrollValue;
       switch (
         link.textContent // check name of link clicked
       ) {
-        case "CASHCRY": // link 1 text
+        case "Overall Coordinator": // link 1 text
           displayImage(imagesCollection, "album 1"); //display images from album 1
 
           break;
-        case "MAHAMANIA": // link 2 text
+        case "Event Management": // link 2 text
           displayImage(imagesCollection, "album 2"); //display images from album 2
 
           break;
-        case "NETALAS": // link 3 text
+        case "Public Relations and marketing": // link 3 text
           displayImage(imagesCollection, "album 3"); //display images from album 3
 
+          break;
+        case "Research Analysis and corporate":
+          displayImage(imagesCollection, "album 4");
+          break;
+
+        case "Designing & Media Team":
+          displayImage(imagesCollection, "album 5");
+          break;
+
+        case "Web Development Team":
+          displayImage(imagesCollection, "album 5");
           break;
 
         case "All": // // link 4 text - display all images at once

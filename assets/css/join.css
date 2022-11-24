@@ -8,6 +8,10 @@ header {
     z-index: 1000;
 }
 
+header nav #main-logo{
+    display: contents;
+}
+
 nav .menu{
     margin-left: 22.5rem;
 }

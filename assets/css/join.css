@@ -64,7 +64,7 @@ nav a:hover {
 
 /* ----------media query for header-------- */
 
-@media screen and (max-width:788px) {
+@media screen and (max-width:1089px) {
     header{
         overflow: hidden;
     }
@@ -78,7 +78,7 @@ nav a:hover {
     }
 
     .menu li a{
-        color: #1a1e2d;
+        color: #FFF;
     }
 
     .menu li .toggle{
@@ -93,8 +93,12 @@ nav a:hover {
         margin: 0px;
         position: relative;
         /* right: 40%; */
-        background-color: whitesmoke;
+        background-color: #1a1e2d;
         width: 100%;
+    }
+
+    .menu li ul li a{
+        background-color: rgb(96, 96, 96);
     }
 }
 

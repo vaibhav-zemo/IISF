@@ -1,21 +1,21 @@
-#about {
+/* #about {
   font-family: "Poppins", sans-serif;
-}
-
-#about h1, h2 {
+} */
+/* 
+/* #about h1, h2 {
   color: #1a1e2d;
   font-size: 41px;
   line-height: 1.3;
   font-weight: 700;
   font-family: "Poppins", sans-serif;
   letter-spacing: -0.3px;
-}
+} */
 
-.services .container{
+/* .services .container{
   width: 100%;
   margin: 50px auto;
   text-align: center;
-}
+}  */
 
 .heading {
   display: flex;
@@ -43,9 +43,7 @@
 }
 
 
-.content ion-icon {
-  font-size: 30px;
-}
+
 
 /* last */
 .container-thanks {
@@ -109,13 +107,13 @@ color: $c-secondary position: absolute top: -20px right: -20px display: inline-b
 }
 
 
-.feature1 ion-icon {
+/* .feature1 ion-icon {
   font-size: 40px;
 }
 
 .feature2 ion-icon {
   font-size: 40px;
-}
+} */
 
 .first, .second, .third, .fourth, .fifth, .sixth, .seventh, .eight {
   padding: 20px;
@@ -125,6 +123,11 @@ color: $c-secondary position: absolute top: -20px right: -20px display: inline-b
   margin: 108px 40px;
 }
 
+
+section{
+ 
+  overflow: hidden;
+}
 
 
 .just {
@@ -223,11 +226,9 @@ color: $c-secondary position: absolute top: -20px right: -20px display: inline-b
   font-weight: 600;
   color: #413b52;
 }
-
-
-
-
-
 .first, .second, .third, .fourth, .fifth, .sixth, .seventh, .eight:hover {
-  curser: pointer;
+  cursor: pointer;
+  
+}
+
 

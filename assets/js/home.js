@@ -44,29 +44,29 @@ window.onload = calcScrollValue;
       switch (
         link.textContent // check name of link clicked
       ) {
-        // case "Overall Coordinator": // link 1 text
-        //   displayImage(imagesCollection, "album 1"); //display images from album 1
+        case "Overall Coordinator": // link 1 text
+          displayImage(imagesCollection, "album 1"); //display images from album 1
 
-        //   break;
-        // case "Event Management": // link 2 text
-        //   displayImage(imagesCollection, "album 2"); //display images from album 2
+          break;
+        case "Event Management": // link 2 text
+          displayImage(imagesCollection, "album 2"); //display images from album 2
 
-        //   break;
-        // case "Public Relations and marketing": // link 3 text
-        //   displayImage(imagesCollection, "album 3"); //display images from album 3
+          break;
+        case "Public Relations and marketing": // link 3 text
+          displayImage(imagesCollection, "album 3"); //display images from album 3
 
-        //   break;
-        // case "Research Analysis and corporate":
-        //   displayImage(imagesCollection, "album 4");
-        //   break;
+          break;
+        case "Research Analysis and corporate":
+          displayImage(imagesCollection, "album 4");
+          break;
 
-        // case "Designing & Media Team":
-        //   displayImage(imagesCollection, "album 5");
-        //   break;
+        case "Designing & Media Team":
+          displayImage(imagesCollection, "album 5");
+          break;
 
-        // case "Web Development Team":
-        //   displayImage(imagesCollection, "album 5");
-        //   break;
+        case "Web Development Team":
+          displayImage(imagesCollection, "album 6");
+          break;
 
         case "CASHCRY": // link 1 text
           displayImage(imagesCollection, "album 1"); //display images from album 1

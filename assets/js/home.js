@@ -25,7 +25,7 @@ window.onload = calcScrollValue;
   // wrap code in IIFE to keep it from global scope
   let links = document.querySelectorAll(".tabs"); // grab all <a> tags that trigger the image gallery
   let imageContainer = document.querySelector(".image-container"); // grab the div that will contain the images
-  let imagesCollection = document.querySelectorAll(".image-container img");
+  let imagesCollection = document.querySelectorAll(".image-container div");
   function displayImage(imgs, album) {
     // function to check the data-album attr and check against the button that was clicked
     imgs.forEach((image) => {
